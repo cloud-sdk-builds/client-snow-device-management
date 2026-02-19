@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-snow-device-management`](https://www.npmjs.com/package/@aws-sdk/client-snow-device-management/v/3.145.0).
+[`@aws-sdk/client-snow-device-management`](https://www.npmjs.com/package/@aws-sdk/client-snow-device-management/v/3.150.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-snow-device-management@3.145.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-snow-device-management@3.150.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-pVcOksIzRCEHbFTE3vCim6pr3yeBSsePaeGVY4vALx+7l7qOJcL+B67wWV/+d+xk
+sha384-j2471fogQQdUyQ0xBwMnHZmbtK+vdbh/LVvfwpI09iVzTLstv21Y69nK12P50ENg
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-snow-device-management": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-snow-device-management@3.145.0/index.min.mjs"
+            "@aws-sdk/client-snow-device-management": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-snow-device-management@3.150.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-snow-device-management@3.145.0/index.min.mjs": "sha384-pVcOksIzRCEHbFTE3vCim6pr3yeBSsePaeGVY4vALx+7l7qOJcL+B67wWV/+d+xk"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-snow-device-management@3.150.0/index.min.mjs": "sha384-j2471fogQQdUyQ0xBwMnHZmbtK+vdbh/LVvfwpI09iVzTLstv21Y69nK12P50ENg"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-snow-device-management": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-snow-device-management@3.145.0/index.min.mjs"
+                        "@aws-sdk/client-snow-device-management": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-snow-device-management@3.150.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-snow-device-management@3.145.0/index.min.mjs": "sha384-pVcOksIzRCEHbFTE3vCim6pr3yeBSsePaeGVY4vALx+7l7qOJcL+B67wWV/+d+xk"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-snow-device-management@3.150.0/index.min.mjs": "sha384-j2471fogQQdUyQ0xBwMnHZmbtK+vdbh/LVvfwpI09iVzTLstv21Y69nK12P50ENg"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.145.0`)
+* Always pin to a specific version (`@3.150.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-snow-device-management/blob/refs/tags/3.145.0/LICENSE
+https://github.com/cloud-sdk-builds/client-snow-device-management/blob/refs/tags/3.150.0/LICENSE
 ```
 
 ---
